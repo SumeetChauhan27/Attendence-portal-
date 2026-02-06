@@ -77,3 +77,6 @@ Frontend:
 - Attendance opening blocked outside schedule or during lunch (confirmation popup).
 - System time not used; manual day/time drives slot selection.
 - Export JSON removed (data remains in app).
+
+## Status
+- All requested tasks to date have been completed and pushed to GitHub.
