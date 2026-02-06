@@ -13,6 +13,11 @@
 Files:
 - `app/src/App.tsx`
 - `app/src/styles.css`
+- `app/vite.config.ts`
+- `.github/workflows/deploy-pages.yml`
+
+Notes:
+- Frontend can now be deployed via GitHub Pages (static build).
 
 ## 2. Timetable Auto-Logic (Manual for Testing)
 - Added `app/src/timetable.ts` with full timetable (day, time, subject, batch, room, type).

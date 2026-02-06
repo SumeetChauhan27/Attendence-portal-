@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Attendence-portal-/',
   plugins: [
     react(),
     VitePWA({
@@ -16,7 +17,7 @@ export default defineConfig({
         theme_color: '#5d2fd2',
         background_color: '#f2f2fb',
         display: 'standalone',
-        start_url: '/',
+        start_url: '/Attendence-portal-/',
         icons: [
           {
             src: '/icon.svg',
